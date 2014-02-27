@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <h1>Hello, world!</h1>
+    <h1>So, now I use Bootstrap with Ruby on the Rails - it's in my Blog project :) !</h1>
+</br> </br>
+
+
+<!-- Basic example -->
+
+<div class="input-group input-group-lg">
+  <span class="input-group-addon">@</span>
+  <input type="text" class="form-control" placeholder="Username">
+</div>
+
+<div class="input-group">
+  <span class="input-group-addon">@</span>
+  <input type="text" class="form-control" placeholder="Username">
+</div>
+
+<div class="input-group input-group-sm">
+  <span class="input-group-addon">@</span>
+  <input type="text" class="form-control" placeholder="Username">
+</div>
+</br> </br>
+
+
+<!-- Sizing -->
+
+<div class="input-group">
+  <span class="input-group-addon">@</span>
+  <input type="text" class="form-control" placeholder="Username">
+</div>
+
+<div class="input-group">
+  <input type="text" class="form-control">
+  <span class="input-group-addon">.00</span>
+</div>
+
+<div class="input-group">
+  <span class="input-group-addon">$</span>
+  <input type="text" class="form-control">
+  <span class="input-group-addon">.00</span>
+</div>
+</br> </br>
+
+
+<!-- Checkboxes and radio addons -->
+<div class="row">
+  <div class="col-lg-6">
+    <div class="input-group">
+      <span class="input-group-addon">
+        <input type="checkbox">
+      </span>
+      <input type="text" class="form-control">
+    </div><!-- /input-group -->
+  </div><!-- /.col-lg-6 -->
+  <div class="col-lg-6">
+    <div class="input-group">
+      <span class="input-group-addon">
+        <input type="radio">
+      </span>
+      <input type="text" class="form-control">
+    </div><!-- /input-group -->
+  </div><!-- /.col-lg-6 -->
+</div><!-- /.row -->
+</br> </br>
+
+
+<!-- Buttons with addons -->
+<div class="row">
+  <div class="col-lg-6">
+    <div class="input-group">
+      <span class="input-group-btn">
+        <button class="btn btn-default" type="button">Go!</button>
+      </span>
+      <input type="text" class="form-control">
+    </div><!-- /input-group -->
+  </div><!-- /.col-lg-6 -->
+  <div class="col-lg-6">
+    <div class="input-group">
+      <input type="text" class="form-control">
+      <span class="input-group-btn">
+        <button class="btn btn-default" type="button">Go!</button>
+      </span>
+    </div><!-- /input-group -->
+  </div><!-- /.col-lg-6 -->
+</div><!-- /.row -->
+</br> </br>
+
+<!-- Buttons with dropdowns - not working!!! -->
+<div class="row">
+  <div class="col-lg-6">
+    <div class="input-group">
+      <div class="input-group-btn">
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Action <span class="caret"></span></button>
+        <ul class="dropdown-menu">
+          <li><a href="#">Action</a></li>
+          <li><a href="#">Another action</a></li>
+          <li><a href="#">Something else here</a></li>
+          <li class="divider"></li>
+          <li><a href="#">Separated link</a></li>
+        </ul>
+      </div><!-- /btn-group -->
+      <input type="text" class="form-control">
+    </div><!-- /input-group -->
+  </div><!-- /.col-lg-6 -->
+  <div class="col-lg-6">
+    <div class="input-group">
+      <input type="text" class="form-control">
+      <div class="input-group-btn">
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Action <span class="caret"></span></button>
+        <ul class="dropdown-menu pull-right">
+          <li><a href="#">Action</a></li>
+          <li><a href="#">Another action</a></li>
+          <li><a href="#">Something else here</a></li>
+          <li class="divider"></li>
+          <li><a href="#">Separated link</a></li>
+        </ul>
+      </div><!-- /btn-group -->
+    </div><!-- /input-group -->
+  </div><!-- /.col-lg-6 -->
+</div><!-- /.row -->
+</br> </br>
+
+<!-- Segmented buttons - doesn't work !!! -->
+<div class="input-group">
+  <div class="input-group-btn">
+    <!-- Button and dropdown menu -->
+  </div>
+  <input type="text" class="form-control">
+</div>
+
+<div class="input-group">
+  <input type="text" class="form-control">
+  <div class="input-group-btn">
+    <!-- Button and dropdown menu -->
+  </div>
+</div>
+</br> </br>
+
+
+<!-- Navs
+Navs available in Bootstrap have shared markup, starting with the base .nav class, as well as shared states. Swap modifier classes to switch between each style.
+Tabs -->
+
+})
+<ul class="nav nav-tabs">
+
+  <li class="active"><a href="#">Home</a></li>
+  <li><a href="#">Profile</a></li>
+  <li><a href="#">Messages</a></li>
+</ul>
+</br> </br>
+
+<button type="button" class="btn btn-default btn-lg">
+  <span class="glyphicon glyphicon-star"></span> Star
+</button>
+</br> </br>
+
+
+<!-- Badges are not perfect!!! - I cant see the rewal badge-->
+<ul class="list-group">
+  <li class="list-group-item">
+     Cras justo odio
+    <span class="badge">14</span>
+    
+  </li>
+</ul>
+</br> </br>
+
+
+<!-- List group - Basic example-->
+<ul class="list-group">
+  <li class="list-group-item">Cras justo odio</li>
+  <li class="list-group-item">Dapibus ac facilisis in</li>
+  <li class="list-group-item">Morbi leo risus</li>
+  <li class="list-group-item">Porta ac consectetur ac</li>
+  <li class="list-group-item">Vestibulum at eros</li>
+</ul>
+</br> </br>
+
+<!-- Linked items: Linkify list group items by using anchor tags instead of list items (that also means a parent <div> instead of an <ul>). No need for individual parents around each element. -doeasn't work-->
+<div class="list-group">
+  <a href="#" class="list-group-item active">
+    Cras justo odio
+  </a>
+  <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
+  <a href="#" class="list-group-item">Morbi leo risus</a>
+  <a href="#" class="list-group-item">Porta ac consectetur ac</a>
+  <a href="#" class="list-group-item">Vestibulum at eros</a>
+</div>
+</br> </br>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
+
+
